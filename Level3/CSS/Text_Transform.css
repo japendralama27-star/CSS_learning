@@ -1,0 +1,16 @@
+#box1{
+    text-transform: uppercase;
+    color:pink
+}
+#box2{
+    text-transform: lowercase;
+    color: hotpink;
+}
+#box3{
+    text-transform: capitalize;
+    color:firebrick;
+}
+#box4{
+    text-transform: none;
+    color:blueviolet
+}
