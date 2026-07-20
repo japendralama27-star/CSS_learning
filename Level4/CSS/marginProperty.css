@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.but{
+    padding: 2px;
+    margin: 10px 20px 3px 6px;
+    background-color: gold;
+}
