@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#first{
+    background-color: yellow;
+    height: 100px;
+    width: 200px;
+    font-size: 10px;
+}
+#second{
+    background-color: red;
+    height: 60%;
+    width: 50%;
+    font-size: 2em/4;
+}
