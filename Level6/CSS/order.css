@@ -5,7 +5,7 @@
 #heading{
     text-align: center;
 }
-#container
+#Container
 {
     height: 200px;
     width: 335px;
@@ -15,6 +15,10 @@
     background-color: aliceblue;
 
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     display: flex;
 }
 .box
@@ -23,11 +27,16 @@
     width: 50px;
     margin: 5px;
     border: 3px solid black;
-
-    flex-direction: row;
-
 }
-#box1{background-color: green;}
-#box2{background-color: yellow;}
-#box3{background-color: grey;}
-#box4{background-color: orange;}
+#box1{background-color: green;
+    order: 2;
+}
+#box2{background-color: yellow;
+    order: 3;
+}
+#box3{background-color: grey;
+    order: 1;
+}
+#box4{background-color: orange;
+    order: 4;
+}
