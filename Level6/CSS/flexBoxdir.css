@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 3px solid black;
+    margin: 5px;
+}
+#heading{
+    text-align: center;
+}
+#Container{
+    height: 150px;
+    width: 600px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid black;
+
+    display: flex;
+    background-color: lavender;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#box1{
+    background-color: yellow;
+}
+#box2{
+    background-color: rgb(200, 28, 28);
+}
+#box3{
+    background-color: blue;
+}
+#box4{
+    background-color: green;
+}
