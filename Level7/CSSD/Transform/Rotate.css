@@ -1,0 +1,15 @@
+.box{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: plum;
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+    transition-property: all 2s easy-in ;
+}
+#box:hover{
+    transform: rotate(45deg);
+}
