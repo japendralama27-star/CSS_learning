@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#pseudo{
+    height: 25px;
+    width: 150px;
+    background-color: yellow;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#pseudo:hover{
+    height: 30px;
+    width: 175px;
+    background-color: violet;
+}
+#pseudo:active{
+    height: 30px;
+    width: 175px;
+    background-color: hotpink;
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#pseudo{
+    height: 25px;
+    width: 150px;
+    background-color: yellow;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    
+    /* we can also write like this in one line given below..... */
+    /* transition-property: all 1s ease-in-out 1s; */
+}
+#pseudo:hover{
+    height: 30px;
+    width: 175px;
+    background-color: violet;
+}
+#pseudo:active{
+    height: 30px;
+    width: 175px;
+    background-color: hotpink;
+}
